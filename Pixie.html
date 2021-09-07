@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <style>
+            h1 {
+                text-align: center;
+                color: blueviolet;
+            }
+
+            h2 {
+                text-align: center;
+                border-radius: 10px;
+                border: 1px solid blueviolet;
+                padding: 15px;
+            }
+
+            img {
+                border-radius: 10px;
+                width: 74%;
+            }
+
+            p {
+                font-size: 19px;
+                line-height: 1.5;
+            }
+
+            button {
+                width: 100%;
+                background: blueviolet;
+                color: white;
+                border: none;
+                padding: 15px;
+                font-size: 20px;
+                border-radius: 30px;
+                margin: 20px 0;
+            }
+
+            footer{
+                text-align: center;
+                font-size: 12px;
+            }
+
+        </style>
+    </head>
+<body>
+<h1>
+🐕 Pixie 🧚 
+</h1>
+<h2>
+    An agility - loving ball maniac Jack Russel and Foxterrier mix ⚾ 
+</h2>
+<img src="https://scontent-vie1-1.xx.fbcdn.net/v/t1.6435-9/199046986_4457807527564164_5173743861319963283_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=e3f864&_nc_ohc=a0VODOWn7roAX9ygR5G&tn=HJHp5P52veQJajRU&_nc_ht=scontent-vie1-1.xx&oh=79e494db1a8e6896a80ae220f8d030c7&oe=6159B077" alt="agility dog" />
+<p>
+    Pixie 🧚 is a rescue pup from the glorious Hungarian city of Tatabanya. She loves to eat, play ⚾, and do agility.
+    She is a mix of 2 terriers (English 🇬🇧  working dogs) so she always has a lot of energy. Terriers are also very loyal and 
+    devoted, which is also true for Pixie - she clearly knows her place in the pack and she loves us with all her (huge) heart.
+    Moreover, terriers are also known for their intelligence. This is why Pixie is not only exceling at agility but she also has 
+    an obedience diploma granted by the KutyaGuru dog school of Budapest 🇭🇺. 
+    <br />
+    <br />
+    <a href="http://kutyaiskolabudapest.hu/">
+        More about KutyaGuru
+        </a>
+
+</p>
+<button>
+    Get to know Pixie
+</button>
+<footer>
+    Coded by Alicja 😇
+</footer>
+
+<script>
+    function subscribe() {
+    
+        let name = prompt("What is your name?");
+        prompt("What is your email address?");
+
+        alert(
+          `Thanks, ${name}! Pixie will get back! Meanwhile, have a blast! 🐾 `
+        );
+      
+    }
+
+    let button = document.querySelector("button");
+    button.addEventListener("click", subscribe);
+</script>
+</body>
+</html>
